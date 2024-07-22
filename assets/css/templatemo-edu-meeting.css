@@ -961,10 +961,12 @@ section.upcoming-meetings .categories .main-button-red a {
 
 .meeting-item {
   margin-bottom: 30px;
+  
 }
 
 .meeting-item .thumb {
   position: relative;
+ 
 }
 
 .meeting-item .thumb img {
@@ -990,6 +992,9 @@ section.upcoming-meetings .categories .main-button-red a {
 .meeting-item .down-content {
   background-color: #fff;
   padding: 30px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
