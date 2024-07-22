@@ -434,6 +434,16 @@ header
   transform: translateY(0%);
   transition-delay: 0s, 0s, 0.3s;
 }
+#top{
+  position: relative;
+}
+#top .logo{
+  position: absolute;
+    top: 120px; /* Adjust the value as needed */
+    right: 50px; /* Adjust the value as needed */
+    width: 300px;
+    filter: invert(1) brightness(2);
+}
 
 .header-area .main-nav .menu-trigger {
   cursor: pointer;
@@ -1847,6 +1857,12 @@ responsive
 
   .header-area .main-nav .nav li ul.sub-menu li a {
     color: #1f272b;
+  }
+  #top .logo{
+    position: absolute;
+      top: 120px; /* Adjust the value as needed */
+      right: 100px; /* Adjust the value as needed */
+      width: 200px;
   }
 
 }
