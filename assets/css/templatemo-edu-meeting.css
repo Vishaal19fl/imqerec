@@ -1047,7 +1047,7 @@ apply now
 */
 
 section.apply-now {
-  background-image:url(../images/imqe.png);
+  background: #191a20;
   background-position: center center;
   background-blend-mode: darken;
   background-attachment: fixed;
