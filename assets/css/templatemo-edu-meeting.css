@@ -1047,7 +1047,7 @@ apply now
 */
 
 section.apply-now {
-  background: #191a20;
+  background-image: url(/assets/images/imqebg.png);
   background-position: center center;
   background-blend-mode: darken;
   background-attachment: fixed;
@@ -1337,6 +1337,10 @@ section.our-facts h2 {
 
 .new-students {
   margin-top: 45px;
+}
+
+section.our-facts{
+  background-image: url(/assets/images/imqebg.png);
 }
 
 section.our-facts .video {
