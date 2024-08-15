@@ -20,6 +20,9 @@
     <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/lightbox.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 <!--
 
 TemplateMo 569 Edu Meeting
@@ -518,8 +521,8 @@ EC members meet on first sunday of every month
   </div>
 </div>
 <hr>
- <!-- Team Start -->
- <div class="container-fluid bg-light py-5" id="team">
+
+<div class="container-fluid bg-light py-5" id="team">
   <div class="container py-5">
     <div class="row g-5 align-items-center">
       <div class="col-lg-8">
@@ -527,107 +530,128 @@ EC members meet on first sunday of every month
           Members
         </div>
         <h1 class="mb-4">2021 - 2022</h1>
-        <p class="mb-4">
-          List of Students
-        </p>
-        <div class="row">
-          <div class="col">
-            <div class="row">
-              <div class="col">
-                <p>1. HARIEGARAN J</p>
-                <p>2. KIRANGANESH S</p>
-                <p>3. VASANTH RAJ. S</p>
-                <p>4. RAVI KUMAR. B</p>
-                <p>5. HARIHARAN RL</p>
-                <p>6. JOSUVA</p>
-                <p>7. JAI SURYA M</p>
-                <p>8. ABISH VR</p>
-                <p>9. ALLAN KEVIN FERNANDEZ</p>
-                <p>10. ARJUN ADAITHYA</p>
-                <p>11. ARJUN T</p>
-                <p>12. BARADWAJ E</p>
+        <p class="mb-4">List of Students</p>
+        
+        <!-- View Members Button -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#membersModal">
+          View Members
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="membersModal" tabindex="-1" aria-labelledby="membersModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="membersModalLabel">List of Members</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="col">
-                <p>13. BASKARAN R</p>
-                <p>14. DEEPAN PRAKASAM</p>
-                <p>15. DEVARAJ S</p>
-                <p>16. DHANUSH VIJAY K</p>
-                <p>17. DHILIP KUMAR A</p>
-                <p>18. DHYANESHWAR Y</p>
-                <p>19. DON AQNINUS</p>
-                <p>20. HARISH S</p>
-                <p>21. ANKEET MAZUMDAR</p>
-                <p>22. AVINASH AR</p>
-                <p>23. HARISH R</p>
-                <p>24. AKASH R</p>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col">
+                    <p style="font-size: large;"><strong>FINAL YEAR</strong></p>
+                    <p>1. HARIEGARAN J - IMQE-REC01</p>
+                    <p>2. KIRANGANESH S - IMQE-REC02</p>
+                    <p>3. VASANTH RAJ. S - IMQE-REC03</p>
+                    <p>4. RAVI KUMAR. B - IMQE-REC04</p>
+                    <p>5. HARIHARAN RL - IMQE-REC05</p>
+                    <p>6. JOSUVA - IMQE-REC06</p>
+                    <p>7. JAI SURYA M - IMQE-REC07</p>
+                    <p style="font-size: large;"><strong>THIRD YEAR</strong></p>
+                    <p>8. ABISH VR - IMQE-REC08</p>
+                    <p>9. ALLAN KEVIN FERNANDEZ - IMQE-REC09</p>
+                    <p>10. ARJUN ADAITHYA - IMQE-REC10</p>
+                    <p>11. ARJUN T - IMQE-REC11</p>
+                    <p>12. BARADWAJ E - IMQE-REC12</p>
+                  </div>
+                  <div class="col">
+                    <p>13. BASKARAN R - IMQE-REC13</p>
+                    <p>14. DEEPAN PRAKASAM - IMQE-REC14</p>
+                    <p>15. DEVARAJ S - IMQE-REC15</p>
+                    <p>16. DHANUSH VIJAY K - IMQE-REC16</p>
+                    <p>17. DHILIP KUMAR A - IMQE-REC17</p>
+                    <p>18. DHYANESHWAR Y - IMQE-REC18</p>
+                    <p>19. DON AQNINUS - IMQE-REC19</p>
+                    <p>20. HARISH S - IMQE-REC20</p>
+                    <p>21. ANKEET MAZUMDAR - IMQE-REC21</p>
+                    <p>22. AVINASH AR - IMQE-REC22</p>
+                    <p>23. HARISH R - IMQE-REC23</p>
+                    <p>24. AKASH R - IMQE-REC24</p>
+                  </div>
+                  <div class="col">
+                    <p>25. AKASH B - IMQE-REC25</p>
+                    <p>26. ASWIN KUMAR S - IMQE-REC26</p>
+                    <p>27. ABDUL ZAMEER N - IMQE-REC27</p>
+                    <p>28. DEEPAK V - IMQE-REC28</p>
+                    <p>29. ABINASH S - IMQE-REC29</p>
+                    <p>30. BAGAVATHYA RATHNAM BS - IMQE-REC30</p>
+                    <p>31. ADITHAYAN RAJ M - IMQE-REC31</p>
+                    <p>32. BHUVANESH G - IMQE-REC32</p>
+                    <p>33. HARI S - IMQE-REC33</p>
+                    <p style="font-size: large;"><strong>SECOND YEAR</strong></p>
+                    <p>34. JAYAPRATHAP. U - IMQE-REC34</p>
+                    <p>35. JENSON BRIGHT. A - IMQE-REC35</p>
+                    <p>36. KARTHICK CHIDAMBARAM - IMQE-REC36</p>
+                  </div>
+                  <div class="col">
+                    <p>37. KARTHICK. L - IMQE-REC37</p>
+                    <p>38. KARTHIK. E - IMQE-REC38</p>
+                    <p>39. KARTHIK. G - IMQE-REC39</p>
+                    <p>40. KARTHIK. V - IMQE-REC40</p>
+                    <p>41. KARTHIKAYAN. N - IMQE-REC41</p>
+                    <p>42. KAVIN. GK - IMQE-REC42</p>
+                    <p>43. MAHESHWARAN - IMQE-REC43</p>
+                    <p>44. MOHAMED SHAKEEL - IMQE-REC44</p>
+                    <p>45. KIRAN. D - IMQE-REC45</p>
+                    <p>46. JEEVANESH. R - IMQE-REC46</p>
+                    <p>47. KAVIRAJ SN - IMQE-REC47</p>
+                    <p>48. KAVITHAN T - IMQE-REC48</p>
+                  </div>
+                  <div class="col">
+                    <p>49. MICHAEL JOEL M - IMQE-REC49</p>
+                    <p>50. MUKKESH KUMAR - IMQE-REC50</p>
+                    <p>51. VASANTH RAJ. S - IMQE-REC69</p>
+                    <p>52. RAVI KUMAR. B - IMQE-REC70</p>
+                  </div>
+                </div>
               </div>
-              <div class="col">
-                <p>25. AKASH B</p>
-                <p>26. ASWIN KUMAR S</p>
-                <p>27. ABDUL ZAMEER N</p>
-                <p>28. DEEPAK V</p>
-                <p>29. ABINASH S</p>
-                <p>30. BAGAVATHYA RATHNAM BS</p>
-                <p>31. ADITHAYAN RAJ M</p>
-                <p>32. BHUVANESH G</p>
-                <p>33. HARI S</p>
-                <p>34. JAYAPRATHAP. U</p>
-                <p>35. JENSON BRIGHT. A</p>
-                <p>36. KARTHICK CHIDAMBARAM</p>
-              </div>
-              <div class="col">
-                <p>37. KARTHICK. L</p>
-                <p>38. KARTHIK. E</p>
-                <p>39. KARTHIK. G</p>
-                <p>40. KARTHIK. V</p>
-                <p>41. KARTHIKAYAN. N</p>
-                <p>42. KAVIN. GK</p>
-                <p>43. MAHESHWARAN</p>
-                <p>44. MOHAMED SHAKEEL</p>
-                <p>45. KIRAN. D</p>
-                <p>46. JEEVANESH. R</p>
-                <p>47. KAVIRAJ SN</p>
-                <p>48. KAVITHAN T</p>
-              </div>
-              <div class="col">
-                <p>49. MICHAEL JOEL M</p>
-                <p>50. MUKKESH KUMAR</p>
-                
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
               </div>
             </div>
-            
           </div>
         </div>
       </div>
+      
+      <!-- Team members images -->
       <div class="col-lg-4">
-        <div class="row g-4">
-            <!-- Team members images -->
-            <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
-                <div class="team-item bg-white text-center rounded p-2 pt-0">
-                    <img class="img-fluid p-2" style="border-radius: 50%; width: 70%; height: 70%;" src="./assets/images/mem1.jpg" alt="" />
-                    <h5 class="mb-0">Jeff Anthony</h5>
-                    <small>President</small>
-                    <br/>
-                    <small>Mail : jeffanthonyalasterj@gmail.com</small>
-                </div>
+        <div class="row g-4 justify-content-center">
+          <!-- Member 1 -->
+          <div class="col-auto wow fadeIn" data-wow-delay="0.3s">
+            <div class="team-item bg-white text-center rounded p-2 pt-0">
+              <img class="img-fluid p-2" style="border-radius: 50%; width: 70%; height: 70%;" src="./assets/images/mem1.jpg" alt="" />
+              <h5 class="mb-0">Jeff Anthony</h5>
+              <small>President</small><br />
+              <small>Mail: jeffanthonyalasterj@gmail.com</small>
             </div>
-            <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
-                <div class="team-item bg-white text-center rounded p-2 pt-0">
-                    <img class="img-fluid p-2" style="border-radius: 50%; width: 70%; height: 70%;" src="./assets/images/pres2.jpg" alt="" />
-                    <h5 class="mb-0">Jayavarshan N</h5>
-                    <small>Secretary</small>
-                    <br/>
-                    <small>Mail : jayavershan@gmail.com</small>
-                </div>
+          </div>
+          <!-- Member 2 -->
+          <div class="col-auto wow fadeIn" data-wow-delay="0.7s">
+            <div class="team-item bg-white text-center rounded p-2 pt-0">
+              <img class="img-fluid p-2" style="border-radius: 50%; width: 70%; height: 70%;" src="./assets/images/pres2.jpg" alt="" />
+              <h5 class="mb-0">Jayavarshan N</h5>
+              <small>Secretary</small><br />
+              <small>Mail: jayavershan@gmail.com</small>
             </div>
-            <!-- End of team members -->
+          </div>
         </div>
-    </div>
-    
+      </div>
+      <!-- End of team members -->
+      
     </div>
   </div>
 </div>
-<!-- Team End -->
+
+
 <hr>
 
 <!-- Team Start -->
@@ -639,125 +663,138 @@ EC members meet on first sunday of every month
           Members
         </div>
         <h1 class="mb-4">2022 - 2023</h1>
-        <p class="mb-4">
-          List of Students
-        </p>
-        <div class="row">
-          <div class="row">
-            <div class="col">
-                <!-- Column 1 -->
-                <p>1. ABISH VR</p>
-                <p>2. ALLAN KEVIN FERNANDEZ</p>
-                <p>3. ARJUN ADAITHYA</p>
-                <p>4. BARADWAJ E</p>
-                <p>5. BASKARAN R</p>
-                <p>6. DEEPAN PRAKASAM</p>
-                <p>7. DEVARAJ S</p>
-                <p>8. DHANUSH VIJAY K</p>
-                <p>9. DHILIP KUMAR A</p>
-                <p>10. DHYANESHWAR Y</p>
-                <p>11. DON AQNINUS</p>
-                <p>12. HARISH S</p>
-                <p>13. ANKEET MAZUMDAR</p>
-                <p>14. AVINASH AR</p>
-                <p>15. HARISH R</p>
-                <p>16. AKASH R</p>
-                <p>17. AKASH B</p>
-                <p>18. ASWIN KUMAR S</p>
-                
-            </div>
-            <div class="col">
-                <!-- Column 2 -->
-                <p>19. ABDUL ZAMEER N</p>
-                <p>20. DEEPAK V</p>
-                <p>21. ABINASH S</p>
-                <p>22. ADITHAYAN RAJ M</p>
-                <p>23. BHUVANESH G</p>
-                <p>24. HARI S</p>
-                <p>25. JENSON BRIGHT. A</p>
-                <p>26. KARTHICK CHIDAMBARAM</p>
-                <p>27. KARTHICK. L</p>
-                <p>28. KARTHIK. E</p>
-                <p>29. KARTHIK. G</p>
-                <p>30. KARTHIK. V</p>
-                <p>31. KARTHIKAYAN. N</p>
-                <p>32. KAVIN. GK</p>
-                <p>33. MAHESHWARAN</p>
-                <p>34. MOHAMED SHAKEEL</p>
-                <p>35. KIRAN. D</p>
-                <p>36. JEEVANESH. R</p>
-                
-                <!-- Add more entries here -->
-            </div>
-            <div class="col">
-                <!-- Column 3 -->
-                <p>37. KAVIRAJ SN</p>
-                <p>38. KAVITHAN T</p>
-                <p>39. MICHAEL JOEL M</p>
-                <p>40. MUKKESH KUMAR</p>
-                <p>41. VASANTH RAJ. S</p>
-                <p>42. RAVI KUMAR. B</p>
-                <p>43. ADITHYA KRISHNA V.S</p>
-                <p>44. AJWAD SM</p>
-                <p>45. ARSHAN SF</p>
-                <p>46. BALAJI. A</p>
-                <p>47. BARANI SURYA. S</p>
-                <p>48. BENJAMIN CALAB. R</p>
-                <p>49. BHARATH SINGH. B</p>
-                <p>50. GOWTHAMAN</p>
-                <p>51. JANARDHANAN. P</p>
-                <p>52. JASIM MOHAMED.</p>
-                <p>53. SAI RAM. BJ</p>
-                <p>54. SANTHOSH SIVAN. V</p>
-                <p>55. SELVA PRASATH N.S</p>
-                
-                <!-- Add more entries here -->
-            </div>
-            <div class="col">
-                <!-- Column 4 -->
-                <p>56. SHAM KUMAR. P</p>
-                <p>57. SIVAGURANATHAN. V</p>
-                <p>58. SRIVATHSAN. K</p>
-                <p>59. UDAYA KUMAR. E</p>
-                <p>60. VIGNESH. S</p>
-                <p>61. JAYAPRATHAP. U</p>
-                <!-- Add more entries here -->
-            </div>
-        </div>
+        <p class="mb-4">List of Students</p>
         
+        <!-- View Members Button -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#membersModal1">
+          View Members
+        </button>
         
+        <!-- Modal -->
+        <div class="modal fade" id="membersModal1" tabindex="-1" aria-labelledby="membersModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="membersModalLabel">List of Members</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col">
+                    <!-- Column 1 -->
+                    <p style="font-size: large;"><strong>FINAL YEAR</strong></p>
+                    <p>1. ABISH VR - IMQE-REC08</p>
+                    <p>2. ALLAN KEVIN FERNANDEZ - IMQE-REC09</p>
+                    <p>3. ARJUN T - IMQE-REC10</p>
+                    <p>4. ARJUN ADAITHYA - IMQE-REC11</p>
+                    <p>5. BARADWAJ E - IMQE-REC12</p>
+                    <p>6. BASKARAN R - IMQE-REC13</p>
+                    <p>7. DEEPAN PRAKASAM - IMQE-REC14</p>
+                    <p>8. DEVARAJ S - IMQE-REC15</p>
+                    <p>9. DHANUSH VIJAY K - IMQE-REC16</p>
+                    <p>10. DHILIP KUMAR A - IMQE-REC17</p>
+                    <p>11. DHYANESHWAR Y - IMQE-REC18</p>
+                    <p>12. DON AQNINUS - IMQE-REC19</p>
+                    <p>13. HARISH S - IMQE-REC20</p>
+                    <p>14. ANKEET MAZUMDAR - IMQE-REC21</p>
+                    <p>15. AVINASH AR - IMQE-REC22</p>
+                    <p>16. HARISH R - IMQE-REC23</p>
+                    <p>17. AKASH R - IMQE-REC24</p>
+                    <p>18. AKASH B - IMQE-REC25</p>
+                    <p>19. ASWIN KUMAR S - IMQE-REC26</p>
+                    <p>20. ABDUL ZAMEER N - IMQE-REC27</p>
+                    <p>21. DEEPAK V - IMQE-REC28</p>
+                    <p>22. ABINASH S - IMQE-REC29</p>
+                    <p>23. BAGAVATHYA RATHNAM B - IMQE-REC30</p> <!-- Inserted as the 23rd member -->
+                    <p>24. ADITHAYAN RAJ M - IMQE-REC31</p>
+                    <p>25. BHUVANESH G - IMQE-REC32</p>
+                    <p>26. HARI S - IMQE-REC33</p>
+                    
+                  </div>
+                  <div class="col">
+                    <!-- Column 2 -->
+                    <p style="font-size: large;"><strong>THIRD YEAR</strong></p>
+                    <p>27. JAYAPRATHAP. U - IMQE-REC34</p>
+                    <p>28. JENSON BRIGHT. A - IMQE-REC35</p>
+                    <p>29. KARTHICK CHIDAMBARAM - IMQE-REC36</p>
+                    <p>30. KARTHICK. L - IMQE-REC37</p>
+                    <p>31. KARTHIK. E - IMQE-REC38</p>
+                    <p>32. KARTHIK. G - IMQE-REC39</p>
+                    <p>33. KARTHIK. V - IMQE-REC40</p>
+                    <p>34. KARTHIKAYAN. N - IMQE-REC41</p>
+                    <p>35. KAVIN. GK - IMQE-REC42</p>
+                    <p>36. MAHESHWARAN - IMQE-REC43</p>
+                    <p>37. MOHAMED SHAKEEL - IMQE-REC44</p>
+                    <p>38. JEEVANESH. R - IMQE-REC45</p>
+                    <p>39. KIRAN. D - IMQE-REC46</p>
+                    <p>40. KAVIRAJ SN - IMQE-REC47</p>
+                    <p>41. KAVITHAN T - IMQE-REC48</p>
+                    <p>42. MICHAEL JOEL M - IMQE-REC49</p>
+                    <p>43. MUKKESH KUMAR - IMQE-REC50</p>
+                    <p>44. VASANTH RAJ. S - IMQE-REC69</p>
+                    <p>45. RAVI KUMAR. B - IMQE-REC70</p>
+                                      
+                  </div>
+                  <div class="col">
+                    <!-- Column 3 -->
+                    <p style="font-size: large;"><strong>SECOND YEAR</strong></p>
+                    <p>45. ADITHYA KRISHNA V.S - IMQE-REC51</p>
+                    <p>46. AJWAD SM - IMQE-REC52</p>
+                    <p>47. ARSHAN SF - IMQE-REC53</p>
+                    <p>48. BALAJI. A - IMQE-REC54</p>
+                    <p>49. BARANI SURYA. S - IMQE-REC55</p>
+                    <p>50. BENJAMIN CALAB. R - IMQE-REC56</p>
+                    <p>51. BHARATH SINGH. B - IMQE-REC57</p>
+                    <p>52. GOWTHAMAN - IMQE-REC58</p>
+                    <p>53. JANARDHANAN. P - IMQE-REC59</p>
+                    <p>54. JASIM MOHAMED - IMQE-REC60</p>
+                    <p>55. SAI RAM. BJ - IMQE-REC61</p>
+                    <p>56. SANTHOSH SIVAN. V - IMQE-REC62</p>
+                    <p>57. SELVA PRASATH N.S - IMQE-REC63</p>
+                    <p>58. SHAM KUMAR. P - IMQE-REC64</p>
+                    <p>59. SIVAGURANATHAN. V - IMQE-REC65</p>
+                    <p>60. SRIVATHSAN. K - IMQE-REC66</p>
+                    <p>61. UDAYA KUMAR. E - IMQE-REC67</p>
+                    <p>62. VIGNESH. S - IMQE-REC68</p>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
       <div class="col-lg-4">
         <div class="row g-4">
-            <!-- Team members images -->
-            <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
-                <div class="team-item bg-white text-center rounded p-2 pt-0">
-                    <img class="img-fluid p-2" style="border-radius: 50%; width: 70%; height: 70%;" src="./assets/images/mem3.jpg" alt="" />
-                    <h5 class="mb-0">Arjun T</h5>
-                    <small>President</small>
-                    <br/>
-                    <small>Mail : iamarjunt01@gmail.com</small>
-                </div>
+          <!-- Team members images -->
+          <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+            <div class="team-item bg-white text-center rounded p-2 pt-0">
+              <img class="img-fluid p-2" style="border-radius: 50%; width: 70%; height: 70%;" src="./assets/images/mem3.jpg" alt="" />
+              <h5 class="mb-0">Arjun T</h5>
+              <small>President</small><br />
+              <small>Mail: iamarjunt01@gmail.com</small>
             </div>
-            <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
-                <div class="team-item bg-white text-center rounded p-2 pt-0">
-                    <img class="img-fluid p-2" style="border-radius: 50%; width: 70%; height: 70%;" src="./assets/images/mem4.jpg" alt="" />
-                    <h5 class="mb-0">Bagavathya Rathnam B S</h5>
-                    <small>Secretary</small>
-                    <br/>
-                    <small>Mail : bsbagavathyratnam@gmail.com</small>
-                    
-                </div>
+          </div>
+          <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
+            <div class="team-item bg-white text-center rounded p-2 pt-0">
+              <img class="img-fluid p-2" style="border-radius: 50%; width: 70%; height: 70%;" src="./assets/images/mem4.jpg" alt="" />
+              <h5 class="mb-0">Bagavathya Rathnam B S</h5>
+              <small>Secretary</small><br />
+              <small>Mail: bsbagavathyratnam@gmail.com</small>
             </div>
-            <!-- End of team members -->
+          </div>
+          <!-- End of team members -->
         </div>
-    </div>
-    
+      </div>
+      
     </div>
   </div>
-</div>
-<!-- Team End -->
+</div
+
 
 <hr>
 <!-- Team Start -->
