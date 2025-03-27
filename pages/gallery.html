@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Template Mo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>IMQE - Photo Gallery</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="/assets/css/templatemo-edu-meeting.css">
+    <link rel="stylesheet" href="/assets/css/owl.css">
+    <link rel="stylesheet" href="/assets/css/lightbox.css">
+
+    <!-- Additional gallery-specific styles -->
+    <style>
+        .gallery-item {
+            margin: 30px 10px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+        .gallery-caption {
+            padding: 20px;
+            background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            transition: all 0.3s ease;
+        }
+        .gallery-caption h4 {
+            margin: 0;
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .gallery-filters {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .gallery-filters button {
+            background: none;
+            border: 2px solid #f5a425;
+            color: #f5a425;
+            padding: 8px 20px;
+            margin: 0 5px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .gallery-filters button:hover,
+        .gallery-filters button.active {
+            background: #f5a425;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Sub Header -->
+    <div class="sub-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-sm-8">
+                    <div class="left-content">
+                        <p>IMQE Society <em>REC</em></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                    <div class="right-icons">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Area Start -->
+    <header class="header-area header-sticky" style="background: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- Logo Start -->
+                        <a href="/index.html" class="logo" style="width: 80px;">
+                            <img src="/assets/images/imqe logo.jpg" alt="" width="100px">
+                        </a>
+                        <!-- Logo End -->
+                        <!-- Menu Start -->
+                        <ul class="nav">
+                            <li class="scroll-to-section" style="color: #111;"><a href="#top" class="active">Home</a></li>
+                            <li><a href="/index.html" style="color: #111;">Back</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- Menu End -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <section class="heading-page header-text" id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h6>Event Highlights</h6>
+                    <h2>Photo Gallery</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-page" id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <div class="row gallery-grid">
+                        <!-- Gallery Item 1 -->
+                        <div class="col-lg-4 col-md-6 gallery-item-wrapper events">
+                            <div class="gallery-item">
+                                <a href="/assets/images/lecture1.jpg" data-lightbox="gallery" data-title="Lecture">
+                                    <img src="/assets/images/lecture1.jpg" alt="Inauguration">
+                                    <div class="gallery-caption">
+                                        <h4>Lecture by Chief Guest</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Gallery Item 2 -->
+                        <div class="col-lg-4 col-md-6 gallery-item-wrapper visits">
+                            <div class="gallery-item">
+                                <a href="/assets/images/lecture 2.jpg" data-lightbox="gallery" data-title="Lecture">
+                                    <img src="/assets/images/lecture 2.jpg" alt="Industrial Visit">
+                                    <div class="gallery-caption">
+                                        <h4>Lecture by Chief Guest</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Gallery Item 3 -->
+                        <div class="col-lg-4 col-md-6 gallery-item-wrapper workshops">
+                            <div class="gallery-item">
+                                <a href="/assets/images/gift1.jpg" data-lightbox="gallery" data-title="Gifts">
+                                    <img src="/assets/images/gift1.jpg" alt="Workshop">
+                                    <div class="gallery-caption">
+                                        <h4>Gifts</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 gallery-item-wrapper workshops">
+                            <div class="gallery-item">
+                                <a href="/assets/images/gift2.jpg" data-lightbox="gallery" data-title="Gifts">
+                                    <img src="/assets/images/gift2.jpg" alt="Workshop">
+                                    <div class="gallery-caption">
+                                        <h4>Gifts</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 gallery-item-wrapper workshops">
+                            <div class="gallery-item">
+                                <a href="/assets/images/gift3.jpg" data-lightbox="gallery" data-title="Gifts">
+                                    <img src="/assets/images/gift3.jpg" alt="Workshop">
+                                    <div class="gallery-caption">
+                                        <h4>Gifts</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 gallery-item-wrapper workshops">
+                            <div class="gallery-item">
+                                <a href="/assets/images/gift4.jpg" data-lightbox="gallery" data-title="Gifts">
+                                    <img src="/assets/images/gift4.jpg" alt="Workshop">
+                                    <div class="gallery-caption">
+                                        <h4>Gifts</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 gallery-item-wrapper workshops">
+                            <div class="gallery-item">
+                                <a href="/assets/images/gift5.jpg" data-lightbox="gallery" data-title="Gifts">
+                                    <img src="/assets/images/gift5.jpg" alt="Workshop">
+                                    <div class="gallery-caption">
+                                        <h4>Gifts</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 gallery-item-wrapper workshops">
+                            <div class="gallery-item">
+                                <a href="/assets/images/gift6.jpg" data-lightbox="gallery" data-title="Gifts">
+                                    <img src="/assets/images/gift6.jpg" alt="Workshop">
+                                    <div class="gallery-caption">
+                                        <h4>Gifts</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 gallery-item-wrapper workshops">
+                            <div class="gallery-item">
+                                <a href="/assets/images/gift7.jpg" data-lightbox="gallery" data-title="Gifts">
+                                    <img src="/assets/images/gift7.jpg" alt="Workshop">
+                                    <div class="gallery-caption">
+                                        <h4>Gifts</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-lg-4 col-md-6 gallery-item-wrapper workshops">
+                            <div class="gallery-item">
+                                <a href="/assets/images/gift8.jpg" data-lightbox="gallery" data-title="Gifts">
+                                    <img src="/assets/images/gift8.jpg" alt="Workshop">
+                                    <div class="gallery-caption">
+                                        <h4>Gifts</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 gallery-item-wrapper workshops">
+                            <div class="gallery-item">
+                                <a href="/assets/images/gift9.jpg" data-lightbox="gallery" data-title="Gifts">
+                                    <img src="/assets/images/gift9.jpg" alt="Workshop">
+                                    <div class="gallery-caption">
+                                        <h4>Gifts</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 gallery-item-wrapper workshops">
+                            <div class="gallery-item">
+                                <a href="/assets/images/gift10.jpg" data-lightbox="gallery" data-title="Gifts">
+                                    <img src="/assets/images/gift10.jpg" alt="Workshop">
+                                    <div class="gallery-caption">
+                                        <h4>Gifts</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 gallery-item-wrapper workshops">
+                            <div class="gallery-item">
+                                <a href="/assets/images/gift11.jpg" data-lightbox="gallery" data-title="Gifts">
+                                    <img src="/assets/images/gift11.jpg" alt="Workshop">
+                                    <div class="gallery-caption">
+                                        <h4>Gifts</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 gallery-item-wrapper workshops">
+                            <div class="gallery-item">
+                                <a href="/assets/images/group1.jpg" data-lightbox="gallery" data-title="Group Photo">
+                                    <img src="/assets/images/group1.jpg" alt="Workshop">
+                                    <div class="gallery-caption">
+                                        <h4>Group Photo</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <section class="contact-us" id="contact" style="margin-bottom: 0px;">
+            <div class="footer">
+                <p>Copyright © 2024 IMQE REC Ltd.</p>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/isotope.min.js"></script>
+    <script src="/assets/js/owl-carousel.js"></script>
+    <script src="/assets/js/lightbox.js"></script>
+    <script src="/assets/js/tabs.js"></script>
+    <script src="/assets/js/video.js"></script>
+    <script src="/assets/js/slick-slider.js"></script>
+    <script src="/assets/js/custom.js"></script>
+
+    <!-- Add this before closing body tag -->
+    <script>
+        $(document).ready(function(){
+            // Initialize isotope
+            var $grid = $('.gallery-grid').isotope({
+                itemSelector: '.gallery-item-wrapper',
+                layoutMode: 'fitRows'
+            });
+
+            // Filter items on button click
+            $('.gallery-filters').on('click', 'button', function() {
+                var filterValue = $(this).attr('data-filter');
+                if(filterValue === 'all') {
+                    filterValue = '*';
+                }
+                $grid.isotope({ filter: filterValue });
+                
+                // Update active button
+                $('.gallery-filters button').removeClass('active');
+                $(this).addClass('active');
+            });
+
+            // Initialize lightbox
+            lightbox.option({
+                'resizeDuration': 200,
+                'wrapAround': true,
+                'showImageNumberLabel': false
+            });
+        });
+    </script>
+</body>
+
+</html>
